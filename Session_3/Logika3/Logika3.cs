@@ -14,8 +14,12 @@ public class Logika3
 
         if (Username == "ocbc" && Password == "bootcamp")
         Console.WriteLine("Anda berhasil login");
-
-        else
-        Console.WriteLine("Username atau Password anda salah");
+        else if (Username == "ocbc" && Password != "bootcamp"){
+            Console.WriteLine("Password Salah");
+        }
+        else{
+            Console.WriteLine("Username atau Password anda salah");
+        }
+        
     }
 }

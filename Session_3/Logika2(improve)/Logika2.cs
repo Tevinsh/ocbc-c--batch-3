@@ -5,10 +5,14 @@ public class Logika2
 
         public static void Main()
         {
-            int nilai = 75;
+            Console.WriteLine("Masukkan Nilai : ");
+            int nilai = int.Parse(Console.ReadLine());
 
-            if (nilai < 60) {
-                Console.WriteLine("Nilai Kamu C");
+            if (nilai < 40) {
+                Console.WriteLine("Nilai Kamu D");
+            }
+            else if (nilai < 60) {
+                Console.WriteLine("Nilai kamu C");
             }
             else if (nilai < 80) {
                 Console.WriteLine("Nilai kamu B");

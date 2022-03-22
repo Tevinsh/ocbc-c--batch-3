@@ -6,7 +6,8 @@ public class Logika5
     public static void Main()
     {
         int nilai;
-        nilai = 7;
+        DateTime date = DateTime.Now;
+        nilai = date.Month;
         switch (nilai)
         {
             case 1:{

@@ -1,0 +1,15 @@
+untuk menjalankan C# dengan mono bisa menggunakan ini:
+
+mcs <namafile>.cs -0 out:<namafile>     //untuk mengcompile
+mono <namafile>                         //untuk menjalankan
+
+*sebenarnya bisa tidak menggunakan out tetapi by default extensinya menjadi .exe
+kalau menggunakan out maka outputfile yang dimuat sesuai yang kita ketikkan di out
+
+lalu untuk membuat project dengan framework dotnet bisa menggunakan :
+
+dotnet new [template project]
+
+[template project] diganti dengan template yang disediakan oleh dotnet bisa dilihat di :
+
+dotnet new --list

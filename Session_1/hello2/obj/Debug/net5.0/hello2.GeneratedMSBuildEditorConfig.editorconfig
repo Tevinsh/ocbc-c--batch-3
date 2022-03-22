@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = hello2
-build_property.ProjectDir = c:\Users\noname\Desktop\OCBC Program\Session_1\hello2\
+build_property.ProjectDir = c:\Users\noname\Desktop\OCBC Program\ocbc-c--batch-3\Session_1\hello2\

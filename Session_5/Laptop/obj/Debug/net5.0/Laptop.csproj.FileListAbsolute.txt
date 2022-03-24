@@ -1,0 +1,16 @@
+c:\Users\noname\Desktop\OCBC Program\Session_5\Laptop\bin\Debug\net5.0\Laptop.exe
+c:\Users\noname\Desktop\OCBC Program\Session_5\Laptop\bin\Debug\net5.0\Laptop.deps.json
+c:\Users\noname\Desktop\OCBC Program\Session_5\Laptop\bin\Debug\net5.0\Laptop.runtimeconfig.json
+c:\Users\noname\Desktop\OCBC Program\Session_5\Laptop\bin\Debug\net5.0\Laptop.runtimeconfig.dev.json
+c:\Users\noname\Desktop\OCBC Program\Session_5\Laptop\bin\Debug\net5.0\Laptop.dll
+c:\Users\noname\Desktop\OCBC Program\Session_5\Laptop\bin\Debug\net5.0\ref\Laptop.dll
+c:\Users\noname\Desktop\OCBC Program\Session_5\Laptop\bin\Debug\net5.0\Laptop.pdb
+c:\Users\noname\Desktop\OCBC Program\Session_5\Laptop\obj\Debug\net5.0\Laptop.csproj.AssemblyReference.cache
+c:\Users\noname\Desktop\OCBC Program\Session_5\Laptop\obj\Debug\net5.0\Laptop.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\noname\Desktop\OCBC Program\Session_5\Laptop\obj\Debug\net5.0\Laptop.AssemblyInfoInputs.cache
+c:\Users\noname\Desktop\OCBC Program\Session_5\Laptop\obj\Debug\net5.0\Laptop.AssemblyInfo.cs
+c:\Users\noname\Desktop\OCBC Program\Session_5\Laptop\obj\Debug\net5.0\Laptop.csproj.CoreCompileInputs.cache
+c:\Users\noname\Desktop\OCBC Program\Session_5\Laptop\obj\Debug\net5.0\Laptop.dll
+c:\Users\noname\Desktop\OCBC Program\Session_5\Laptop\obj\Debug\net5.0\ref\Laptop.dll
+c:\Users\noname\Desktop\OCBC Program\Session_5\Laptop\obj\Debug\net5.0\Laptop.pdb
+c:\Users\noname\Desktop\OCBC Program\Session_5\Laptop\obj\Debug\net5.0\Laptop.genruntimeconfig.cache

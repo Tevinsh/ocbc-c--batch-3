@@ -1,0 +1,16 @@
+C:\Users\noname\Desktop\OCBC Program\Session_5\inheritance\obj\Debug\net5.0\inheritance.csproj.AssemblyReference.cache
+C:\Users\noname\Desktop\OCBC Program\Session_5\inheritance\obj\Debug\net5.0\inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noname\Desktop\OCBC Program\Session_5\inheritance\obj\Debug\net5.0\inheritance.AssemblyInfoInputs.cache
+C:\Users\noname\Desktop\OCBC Program\Session_5\inheritance\obj\Debug\net5.0\inheritance.AssemblyInfo.cs
+C:\Users\noname\Desktop\OCBC Program\Session_5\inheritance\obj\Debug\net5.0\inheritance.csproj.CoreCompileInputs.cache
+c:\Users\noname\Desktop\OCBC Program\Session_5\inheritance\bin\Debug\net5.0\inheritance.exe
+c:\Users\noname\Desktop\OCBC Program\Session_5\inheritance\bin\Debug\net5.0\inheritance.deps.json
+c:\Users\noname\Desktop\OCBC Program\Session_5\inheritance\bin\Debug\net5.0\inheritance.runtimeconfig.json
+c:\Users\noname\Desktop\OCBC Program\Session_5\inheritance\bin\Debug\net5.0\inheritance.runtimeconfig.dev.json
+c:\Users\noname\Desktop\OCBC Program\Session_5\inheritance\bin\Debug\net5.0\inheritance.dll
+c:\Users\noname\Desktop\OCBC Program\Session_5\inheritance\bin\Debug\net5.0\ref\inheritance.dll
+c:\Users\noname\Desktop\OCBC Program\Session_5\inheritance\bin\Debug\net5.0\inheritance.pdb
+c:\Users\noname\Desktop\OCBC Program\Session_5\inheritance\obj\Debug\net5.0\inheritance.dll
+c:\Users\noname\Desktop\OCBC Program\Session_5\inheritance\obj\Debug\net5.0\ref\inheritance.dll
+c:\Users\noname\Desktop\OCBC Program\Session_5\inheritance\obj\Debug\net5.0\inheritance.pdb
+c:\Users\noname\Desktop\OCBC Program\Session_5\inheritance\obj\Debug\net5.0\inheritance.genruntimeconfig.cache

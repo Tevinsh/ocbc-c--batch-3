@@ -1,0 +1,26 @@
+langkah-langkah membuat best practice sesi 10
+
+1. install dotnet sdk 5
+2. install tool (dbeaver, postman, dll)
+3. create project from vscode
+4. generate melalui terminal (aplikasi .net core web api)
+ > sintak terminal
+ 1. dotnet new webapi
+ 2. dotnet add package namalibrary
+
+dotnet new webapi -n "TodoApp" -lang "C#" -au none
+
+dotnet tool install --global dotnet-ef
+dotnet add package NuGet.CommandLine.XPlat --version 5.15.0
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 5.0.15
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 5.0.15
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0.15
+--untuk EF Mysql
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 5
+
+--install jwtBearer
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 5.0.11
+dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 5.0.11
+dotnet add package Microsoft.AspNetCore.Identity.UI --version 5.0.11
+
+jika ada error dalam menjalan migrasi bsia dicoba hapus file obj dan bin pada project

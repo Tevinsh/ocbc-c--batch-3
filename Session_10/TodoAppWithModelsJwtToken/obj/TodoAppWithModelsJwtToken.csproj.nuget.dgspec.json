@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\noname\\Desktop\\OCBC Program\\Session_10\\TodoAppWithModelsJwtToken\\TodoAppWithModelsJwtToken.csproj": {}
+    "C:\\Users\\noname\\Desktop\\OCBC Program\\ocbc-c--batch-3\\Session_10\\TodoAppWithModelsJwtToken\\TodoAppWithModelsJwtToken.csproj": {}
   },
   "projects": {
-    "C:\\Users\\noname\\Desktop\\OCBC Program\\Session_10\\TodoAppWithModelsJwtToken\\TodoAppWithModelsJwtToken.csproj": {
+    "C:\\Users\\noname\\Desktop\\OCBC Program\\ocbc-c--batch-3\\Session_10\\TodoAppWithModelsJwtToken\\TodoAppWithModelsJwtToken.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\noname\\Desktop\\OCBC Program\\Session_10\\TodoAppWithModelsJwtToken\\TodoAppWithModelsJwtToken.csproj",
+        "projectUniqueName": "C:\\Users\\noname\\Desktop\\OCBC Program\\ocbc-c--batch-3\\Session_10\\TodoAppWithModelsJwtToken\\TodoAppWithModelsJwtToken.csproj",
         "projectName": "TodoAppWithModelsJwtToken",
-        "projectPath": "C:\\Users\\noname\\Desktop\\OCBC Program\\Session_10\\TodoAppWithModelsJwtToken\\TodoAppWithModelsJwtToken.csproj",
+        "projectPath": "C:\\Users\\noname\\Desktop\\OCBC Program\\ocbc-c--batch-3\\Session_10\\TodoAppWithModelsJwtToken\\TodoAppWithModelsJwtToken.csproj",
         "packagesPath": "C:\\Users\\noname\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\noname\\Desktop\\OCBC Program\\Session_10\\TodoAppWithModelsJwtToken\\obj\\",
+        "outputPath": "C:\\Users\\noname\\Desktop\\OCBC Program\\ocbc-c--batch-3\\Session_10\\TodoAppWithModelsJwtToken\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\noname\\AppData\\Roaming\\NuGet\\NuGet.Config",

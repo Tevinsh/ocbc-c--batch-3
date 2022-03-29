@@ -1,0 +1,76 @@
+----------------------------------
+sesi 13
+
+(terminal)
+dotnet new webapi -n "TodoApp" -lang "C#" -au none
+
+dotnet build
+dotnet publish -c Release
+docker build -t weatherimage:dev .
+docker run -d -p 5051:80 --name weathercontainer weatherimage:dev
+
+
+(buat file - DDockerfile - copy paste)
+#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+EXPOSE 48719
+EXPOSE 27017
+EXPOSE 5000
+EXPOSE 5001
+
+
+FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
+WORKDIR /src
+COPY . .
+
+#COPY ["TodoAppTest/TodoAppTest.csproj", "TodoAppTest/"]
+#RUN dotnet restore "TodoAppTest/TodoAppTest.csproj"
+#COPY . .
+#WORKDIR "/src/TodoAppTest"
+#RUN dotnet build "TodoAppTest.csproj" -c Release -o /app/build
+
+RUN dotnet restore 
+RUN dotnet build --no-restore -c Release -o /app
+
+FROM build AS publish
+RUN dotnet publish "TodoAppTest.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+#COPY --from=publish /app/publish .
+COPY --from=publish /app/ .
+#ENTRYPOINT ["dotnet", "TodoAppTest.dll"]
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet TodoAppTest.dll
+
+(aktifin swagger)
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    if (env.IsDevelopment())
+    {
+        app.UseDeveloperExceptionPage();
+    }
+
+    app.UseSwagger();
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WeatherTest v1"));
+
+    app.UseHttpsRedirection();
+
+    app.UseRouting();
+
+    app.UseAuthorization();
+
+    app.UseEndpoints(endpoints =>
+    {
+        endpoints.MapControllers();
+    });
+}
+
+C:\Users\DELL\AppData\Local\Docker
+
+(heroku weather forecast) https://kevin-weather-test.herokuapp.com/weatherforecast
+
+(jincod repo) https://github.com/jincod/dotnetcore-buildpack
